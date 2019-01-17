@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Training Day</string>
+
+
+    <!-- Titles -->
+    <string name="title_list_fragment">Trainings</string>
+    <string name="title_about_fragment">About</string>
+    <string name="title_new_training">New Training</string>
+    <string name="title_delete_training">Delete Training</string>
+    <string name="title_edit_training">Edit Training</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_new_user">New User</string>
+
+    <!-- Labels -->
+    <string name="label_signin">Sign in</string>
+    <string name="label_login">Login</string>
+    <string name="label_logout">Logout</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="label_muscle_group">Muscle Group</string>
+    <string name="label_day">Day Of The Week</string>
+    <string name="label_add">Save</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_delete">Delete</string>
+    <string name="by" translatable="false">Edster Technology ®</string>
+    <string name="version">Version 1.0</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+
+
+
+    <!-- Menssages -->
+    <string name="error_list">Failed to fetch trainings</string>
+    <string name="error_save">Failed to save trainings</string>
+    <string name="error_register">Failed to register user (may be in use)</string>
+    <string name="error_delete">Failed to delete trainings</string>
+    <string name="success_delete">Successfully deleted training</string>
+    <string name="success_edit">Successfully edited training</string>
+    <string name="success_register">Successfully register user</string>
+    <string name="label_delete_msg">Are you sure?</string>
+    <string name="warning_add">All fields are required</string>
+    <string name="warning_user">Wrong password or username</string>
+
+    <!-- Days -->
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+
+    <!-- Arrays -->
+    <string-array name="days">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+
+
+
+</resources>

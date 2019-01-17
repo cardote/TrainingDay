@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dia de Treinamento</string>
+    <string name="title_list_fragment">Treinos</string>
+    <string name="title_about_fragment">Sobre</string>
+    <string name="title_new_training">Novo Treino</string>
+    <string name="title_delete_training">Deletar Treino</string>
+    <string name="title_edit_training">Editar Treino</string>
+    <string name="label_muscle_group">Grupo Muscular</string>
+    <string name="label_day">Dia da Semana</string>
+    <string name="label_add">Salvar</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_delete">Deletar</string>
+    <string name="error_list">Erro ao listar treinos</string>
+    <string name="error_save">Erro ao salvar treinos</string>
+    <string name="error_delete">Erro ao deletar treinos</string>
+    <string name="success_delete">Treino deletado com sucesso</string>
+    <string name="success_edit">Treino editado com sucesso</string>
+    <string name="label_delete_msg">Você tem certeza?</string>
+    <string name="warning_add">Todos os campos são obrigatórios</string>
+    <string name="sunday">Domingo</string>
+    <string name="monday">Segunda</string>
+    <string name="tuesday">Terça</string>
+    <string name="wednesday">Quarta</string>
+    <string name="thursday">Quinta</string>
+    <string name="friday">Sexta</string>
+    <string name="saturday">Sabado</string>
+    <string name="title_activity_login">Entrar</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="label_login">Entrar</string>
+    <string name="label_logout">Sair</string>
+    <string name="version">Versão 1.0</string>
+    <string name="label_username">Usuário</string>
+    <string name="label_password">Senha</string>
+    <string name="label_signin">Cadastrar-se</string>
+    <string name="title_new_user">Novo Usuário</string>
+    <string name="error_register">Erro ao salvar usuário (talvez esteja em uso)</string>
+    <string name="success_register">Usuário registrado com sucesso</string>
+    <string name="warning_user">Usuário ou senha incorretos</string>
+
+</resources>
