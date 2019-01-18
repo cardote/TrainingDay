@@ -68,6 +68,15 @@
             android:id="@+id/btSignin" app:layout_constraintEnd_toEndOf="@+id/btLogin"
             app:layout_constraintStart_toStartOf="@+id/btLogin" android:layout_marginBottom="@dimen/default_margin_login"
             app:layout_constraintBottom_toBottomOf="parent"/>
+    <CheckBox
+            android:text="@string/label_stay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cbStayid"
+            app:layout_constraintEnd_toEndOf="@+id/btLogin"
+            app:layout_constraintStart_toStartOf="@+id/btLogin" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/btLogin" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/btSignin"/>
 
 
 </android.support.constraint.ConstraintLayout>

@@ -10,6 +10,7 @@ import android.widget.Toast
 import br.com.cardote.fichadetreino.adapters.FragmentViewPagerAdapter
 import br.com.cardote.fichadetreino.fragments.AddTrainingFragment
 import br.com.cardote.fichadetreino.fragments.ListFragment
+import br.com.cardote.fichadetreino.helpers.PreferencesHelper
 import br.com.cardote.fichadetreino.models.User
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     private val fragments = listOf(ListFragment(), AddTrainingFragment())
     private lateinit var user : User
+    private lateinit var preferencesHelper : PreferencesHelper
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,7 +28,9 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(toolbar)
 
-        user = intent.extras.get("user") as User
+        preferencesHelper = PreferencesHelper(this)
+
+        user = User(preferencesHelper.user, "")
 
 
         setupToolbar()
@@ -96,6 +100,7 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this@MainActivity, LoginActivity::class.java)
                 intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
                 startActivity(intent)
+                preferencesHelper.stayConnected = false
                 this@MainActivity.finish()
             }
         }

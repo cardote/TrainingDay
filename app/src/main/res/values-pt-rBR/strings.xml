@@ -37,5 +37,6 @@
     <string name="error_register">Erro ao salvar usuário (talvez esteja em uso)</string>
     <string name="success_register">Usuário registrado com sucesso</string>
     <string name="warning_user">Usuário ou senha incorretos</string>
+    <string name="label_stay">Manter-se conectado</string>
 
 </resources>
