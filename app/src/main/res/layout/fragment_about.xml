@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                              xmlns:app="http://schemas.android.com/apk/res-auto"
-                                             android:layout_width="match_parent"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
                                              android:layout_height="match_parent">
 
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:text="@string/by"
+            android:text="@string/by2"
             android:id="@+id/textView"
             android:layout_marginBottom="@dimen/margin_bottom_version"
             app:layout_constraintBottom_toTopOf="@+id/tvVersion"
@@ -16,6 +16,14 @@
             app:layout_constraintStart_toStartOf="@+id/imageView"
             android:layout_marginLeft="@dimen/margin_left"
             android:layout_marginStart="@dimen/margin_left"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/by1"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView" app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="@+id/textView"/>
     <ImageView
             android:src="@drawable/logo"
             android:layout_width="@dimen/logo_dimem"

@@ -14,7 +14,7 @@
             app:srcCompat="@drawable/logo" android:id="@+id/imageView2"
             android:contentDescription="@string/app_name"
             android:scaleType="fitCenter"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="@dimen/margin_top"
             app:layout_constraintTop_toTopOf="parent"/>

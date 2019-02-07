@@ -15,7 +15,7 @@
             android:background="?attr/colorPrimary"
             app:titleTextColor="#000"
             app:subtitleTextColor="#f5fbff"
-            android:padding="1dp"
+            android:padding="@dimen/padding_toolbar"
     />
 
 

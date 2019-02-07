@@ -21,7 +21,8 @@
     <string name="label_add">Save</string>
     <string name="label_cancel">Cancel</string>
     <string name="label_delete">Delete</string>
-    <string name="by" translatable="false">Edster Technology ®</string>
+    <string name="by1" translatable="false">Edgar Cardote</string>
+    <string name="by2" translatable="false">Luis Padovani</string>
     <string name="version">Version 1.0</string>
     <string name="label_username">Username</string>
     <string name="label_password">Password</string>

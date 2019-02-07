@@ -28,32 +28,32 @@ class SplashScreen : AppCompatActivity() {
     }
 
     private fun carregar() {
-        val anim = AnimationUtils.loadAnimation(
-            this,
-            R.anim.animacao_splash
-        )
-        anim.reset()
+            val anim = AnimationUtils.loadAnimation(
+                this,
+                R.anim.animacao_splash
+            )
+            anim.reset()
 
-        val iv = findViewById(R.id.splash) as ImageView
+            val iv = findViewById(R.id.splash) as ImageView
 
-        iv.clearAnimation()
-        iv.startAnimation(anim)
+            iv.clearAnimation()
+            iv.startAnimation(anim)
 
-        Handler().postDelayed({
-            if(preferencesHelper.stayConnected){
-                callActivity(MainActivity())
-            } else {
-                callActivity(LoginActivity())
-            }
+            Handler().postDelayed({
+                if(preferencesHelper.stayConnected){
+                    callActivity(MainActivity())
+                } else {
+                    callActivity(LoginActivity())
+                }
 
-            this@SplashScreen.finish()
-        }, SPLASH_DISPLAY_LENGTH)
+                this@SplashScreen.finish()
+            }, SPLASH_DISPLAY_LENGTH)
 
     }
 
     private fun callActivity(activity: AppCompatActivity){
         val intent = Intent(this@SplashScreen, activity::class.java)
-        intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
+        intent.flags = Intent.FLAG_ACTIVITY_NO_ANIMATION
         startActivity(intent)
     }
 }

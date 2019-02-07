@@ -15,4 +15,10 @@
     <!-- Text Size -->
     <dimen name="title_size">25sp</dimen>
     <dimen name="day_size">18sp</dimen>
+    <dimen name="padding_toolbar">1dp</dimen>
+    <dimen name="fb_width">70dp</dimen>
+    <dimen name="fb_height">70dp</dimen>
+    <dimen name="margin_right_extra">64dp</dimen>
+    <dimen name="ib_edit_dimem">44dp</dimen>
+    <dimen name="divider_height">2dp</dimen>
 </resources>
